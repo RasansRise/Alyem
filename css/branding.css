@@ -51,7 +51,11 @@
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
   }
-  
+  .button.website{
+    background-color: transparent;
+    border:none;
+  }
+
   @media (hover: hover) {
     .button:hover {
         background-color: #7D8674;
@@ -59,7 +63,10 @@
         color:white;
     }
   }
-  
+  .button.website:hover{
+    background-color: transparent;
+    border:none;
+  }
   /* .button:active {
     background-color: var(--accentColor);
     color: var(--bgColor);
